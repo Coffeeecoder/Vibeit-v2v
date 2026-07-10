@@ -1,279 +1,353 @@
-🌸 NextHer — The Career Operating System for Women
-💡 The Idea
+# 🌸 NextHer — The Career Operating System for Women
 
-Professional networking platforms are often transactional and fail to address the challenges women face throughout their careers. Critical workplace insights such as maternity support, pay transparency, women in leadership, mentorship accessibility, and career guidance are either missing or scattered across multiple platforms. As a result, women are forced to switch between job portals, networking sites, mentorship groups, and AI tools to manage their professional growth.
+> An AI-powered career ecosystem designed to help women navigate every stage of their professional journey through mentorship, networking, career intelligence, and personalized guidance.
 
-NextHer brings everything together into one intelligent career ecosystem designed specifically for women. From resume building and skill development to mentorship, networking, company insights, and AI-powered career coaching, the platform creates a personalized career journey that is supportive, data-driven, and empowering.
+<img width="635" height="765" alt="Screenshot 2026-07-10 at 11 42 04 PM" src="https://github.com/user-attachments/assets/eff97b33-f3fd-4f0c-9074-4d923839b7df" />
 
-🔗 Important Links
-🌐 Live Deployment
+<img width="910" height="759" alt="Screenshot 2026-07-10 at 11 43 29 PM" src="https://github.com/user-attachments/assets/b67a098e-34ac-4d4e-8a29-b45f6af3c656" />
 
+<img width="484" height="571" alt="Screenshot 2026-07-10 at 11 44 22 PM" src="https://github.com/user-attachments/assets/64364a41-a2b6-49e1-9f87-b0ec5503232a" />
 
-🎥 Demo Video
+<img width="1304" height="753" alt="Screenshot 2026-07-10 at 11 45 03 PM" src="https://github.com/user-attachments/assets/02144115-7baa-4ec1-8c01-7909a8305cc4" />
 
-✨ Features
-🤝 Swipe-Based Career Matchmaking
+<img width="807" height="753" alt="Screenshot 2026-07-10 at 11 45 47 PM" src="https://github.com/user-attachments/assets/693d39f4-c432-4473-aaeb-365b9e2538c0" />
 
-● Tinder-inspired swipe interface for discovering mentors, companies, and opportunities.
+<img width="805" height="643" alt="Screenshot 2026-07-10 at 11 46 13 PM" src="https://github.com/user-attachments/assets/52149956-36a1-4c45-8cf2-c9e446910c56" />
 
-● Match with mentors only when there is mutual interest.
+---
 
-● View compatibility scores before connecting.
+## 💡 The Idea
 
-● Browse diversity ratings, location, experience level, and career domain.
+Traditional professional networking platforms are often transactional and fail to address challenges uniquely faced by women throughout their careers. Important workplace information such as:
 
-● Smooth gesture-based interactions powered by advanced animations.
+* Maternity support policies
+* Pay transparency
+* Women in leadership statistics
+* Mentorship accessibility
+* Safe communities and career guidance
 
-🤖 AskHer Studio & AI Career Mentor
+is usually scattered across multiple platforms.
 
-● AI career companion designed to feel like an experienced mentor.
+As a result, women are forced to switch between job portals, networking platforms, mentorship groups, and AI tools to manage their career growth.
 
-● Resume analysis with ATS scoring.
+**NextHer brings everything together into one intelligent ecosystem.**
 
-● Personalized skill-gap identification.
+From resume building and skill development to mentorship, networking, workplace insights, and AI-powered career coaching, NextHer creates a personalized, supportive, and data-driven career journey.
 
-● Career roadmaps for 3, 6, and 12 months.
+---
 
-● Weekly learning goals and milestone tracking.
+## 🔗 Important Links
 
-● AI-powered mock interview practice.
+* 🌐 **Live Deployment:** *Coming Soon*
+* 🎥 **Demo Video:** *Coming Soon*
 
-● Resume feedback and improvement suggestions.
+---
 
-● Interactive career chatbot for guidance anytime.
+# ✨ Features
 
-👩‍💻 Safe Community Platform
+## 🤝 Swipe-Based Career Matchmaking
 
-● Verified women-only community.
+A Tinder-inspired discovery experience for finding mentors, companies, and opportunities.
 
-● Topic-based discussion channels.
+### Features
 
-● Share interview experiences.
+* Swipe to discover mentors and opportunities
+* Mutual mentor matching system
+* Compatibility scoring engine
+* Diversity and inclusivity insights
+* Filter by:
 
-● Salary discussions.
+  * Experience level
+  * Career domain
+  * Location
+* Smooth gesture-based interactions powered by animations
 
-● Learning resources.
+---
 
-● Success stories and achievements.
+## 🤖 AskHer Studio & AI Career Mentor
 
-● Community engagement badges.
+Your intelligent career companion available anytime.
 
-● Curated newsletters and educational content.
+### Features
 
-🏢 Company Insights Dashboard
+* Resume analysis & ATS scoring
+* Skill-gap identification
+* Personalized career roadmaps
+* Weekly learning goals
+* Milestone tracking
+* AI mock interview practice
+* Resume improvement suggestions
+* Interactive career chatbot
 
-● Women-centric workplace insights.
+---
 
-● Female leadership statistics.
+## 👩‍💻 Safe Community Platform
 
-● Pay transparency information.
+A verified and supportive professional community for women.
 
-● Maternity leave details.
+### Features
 
-● Returnship program availability.
+* Women-only verified community
+* Topic-based discussion spaces
+* Interview experience sharing
+* Salary discussions
+* Learning resource sharing
+* Success stories and achievements
+* Community badges and recognition
+* Curated newsletters and educational content
 
-● Diversity scores.
+---
 
-● Authentic employee experiences.
+## 🏢 Company Insights Dashboard
 
-● Better-informed job decisions before applying.
+Make informed career decisions before applying.
 
-📈 Personalized Career Dashboard
+### Features
 
-● Resume progress tracking.
+* Female leadership statistics
+* Pay transparency insights
+* Maternity leave information
+* Returnship opportunities
+* Diversity scores
+* Workplace reviews and experiences
+* Women-centric company intelligence
 
-● Career readiness score.
+---
 
-● Weekly goals.
+## 📈 Personalized Career Dashboard
 
-● Skill progress visualization.
+Track your professional growth in one place.
 
-● Mentor recommendations.
+### Features
 
-● Job recommendations.
+* Resume progress tracking
+* Career readiness score
+* Weekly goals and milestones
+* Skill growth visualization
+* Mentor recommendations
+* Personalized job recommendations
+* Interview reminders
 
-● Upcoming interview reminders.
+---
 
-● Personalized career milestones.
+# 🛠️ Tech Stack
 
-🛠️ Tech Stack & Tools
-🎨 Frontend
+## 🎨 Frontend
 
-● React
+* React
+* Next.js
+* TypeScript
+* Tailwind CSS
+* Framer Motion
 
-● Next.js
+---
 
-● Tailwind CSS
+## ⚙️ Backend
 
-● Framer Motion
+* Node.js
+* Express.js
+* REST APIs
+* WebSockets
 
-● TypeScript
+---
 
-⚙️ Backend
+## 🗄️ Database
 
-● Node.js
+* PostgreSQL
+* Vector Database
 
-● Express.js
+---
 
-● WebSockets
+## 🤖 AI & Machine Learning
 
-● REST APIs
+* Google Gemini API
+* LangChain
+* Resume Parsing
+* Semantic Search
+* ATS Score Analysis
+* Skill Gap Detection
+* Career Roadmap Generation
+* Mock Interview Intelligence
+* AI Chatbot
 
-🗄️ Database
+---
 
-● PostgreSQL
+## ☁️ Deployment & Development
 
-● Vector Database
+* Git
+* GitHub
+* Vercel
+* VS Code
 
-🤖 AI & Machine Learning
+---
 
-● Google Gemini API
+# 📖 System Architecture
 
-● LangChain
+NextHer is designed as a connected AI ecosystem where every feature contributes to creating a deeply personalized experience.
 
-● Resume Parsing
+---
 
-● Semantic Search
+## 📄 Step 1 — Resume Intelligence
 
-● ATS Score Analysis
+1. User uploads resume.
+2. Backend securely processes the document.
+3. Gemini extracts:
 
-● AI Chatbot
+   * Skills
+   * Projects
+   * Education
+   * Experience
+   * Achievements
+4. Information is converted into structured JSON.
+5. ATS and Career Readiness Scores are generated.
 
-● Skill Gap Detection
+---
 
-● Roadmap Generation
+## 📊 Step 2 — Skill Gap Analysis
 
-● Mock Interview Intelligence
+The AI:
 
-☁️ Deployment & Development
+* Compares user profiles with industry requirements
+* Identifies missing skills
+* Generates learning recommendations
+* Creates short-term and long-term improvement plans
 
-● Git
+---
 
-● GitHub
+## 🎯 Step 3 — Personalized Career Roadmap
 
-● Vercel
+AI generates:
 
-● VS Code
+### 3-Month Roadmap
 
-📖 Documentation
-🧠 System Overview
+Short-term goals and foundational skills.
 
-NextHer is designed as a connected AI-powered career ecosystem where every feature contributes to creating a personalized experience instead of functioning as isolated modules.
+### 6-Month Roadmap
 
-📄 Step 1 — Resume Intelligence
+Intermediate growth milestones.
 
-● Users upload their resumes through AskHer Studio.
+### 12-Month Roadmap
 
-● The backend securely processes the document.
+Long-term career transformation plan.
 
-● Google Gemini extracts skills, projects, education, work experience, and achievements.
+The roadmap is continuously updated based on user progress.
 
-● The extracted information is converted into structured JSON.
+---
 
-● The system evaluates the resume against industry expectations.
+## 🤝 Step 4 — Smart Matchmaking Engine
 
-● An ATS Score and Career Readiness Score are generated.
+### Workflow
 
-📊 Step 2 — Skill Gap Analysis
+* Generate profile embeddings
+* Generate mentor embeddings
+* Generate company embeddings
+* Perform semantic similarity search
+* Rank recommendations using compatibility scores
 
-● AI compares the user's profile with current industry requirements.
+### Outcome
 
-● Missing technical and professional skills are identified.
+Highly personalized mentor and opportunity recommendations.
 
-● Personalized learning recommendations are generated.
+---
 
-● Short-term and long-term improvement plans are created.
+## 💬 Step 5 — AI Career Companion
 
-🎯 Step 3 — Personalized Career Roadmap
+The AI mentor:
 
-● AI builds customized learning plans.
+* Remembers previous interactions
+* Tracks completed goals
+* Monitors milestones
+* Sends reminders
+* Provides career guidance
+* Conducts mock interviews
+* Evaluates performance
+* Suggests improvements
 
-● Generates 3-month roadmap.
+---
 
-● Generates 6-month roadmap.
+## 🌐 Step 6 — Community Intelligence
 
-● Generates 12-month roadmap.
+Community interactions continuously improve the platform.
 
-● Breaks goals into manageable weekly milestones.
+### Users can:
 
-● Continuously updates recommendations based on progress.
+* Share achievements
+* Discuss interviews
+* Exchange resources
+* Help others learn from experiences
 
-🤝 Step 4 — Smart Matchmaking Engine
+As more users participate, the ecosystem becomes increasingly intelligent and personalized.
 
-● User profile embeddings are generated.
+---
 
-● Mentor profiles are embedded.
+# ⚡ Real-Time Features
 
-● Company opportunities are embedded.
+Powered by WebSockets.
 
-● Similarity matching identifies the most relevant mentors and jobs.
+### Includes
 
-● Compatibility scores rank opportunities automatically.
+* Instant notifications
+* Live discussion feeds
+* Real-time comments
+* Dynamic engagement tracking
+* Immediate updates across the platform
 
-● Users receive highly personalized recommendations.
+---
 
-💬 Step 5 — AI Career Companion
+# 🤖 AI Workflow
 
-● AI remembers previous conversations.
+Multiple intelligent systems work together to power NextHer.
 
-● Tracks completed goals.
+### Google Gemini
 
-● Monitors upcoming milestones.
+* Resume understanding
+* Natural language reasoning
+* Career recommendations
 
-● Sends personalized reminders.
+### LangChain
 
-● Provides career advice.
+* AI orchestration
+* Agent workflows
+* Memory management
 
-● Conducts mock interviews.
+### Vector Search
 
-● Evaluates interview performance.
+* Semantic mentor recommendations
+* Personalized opportunity matching
 
-● Suggests improvements after every session.
+### Intelligence Layer
 
-🌐 Step 6 — Community Intelligence
+* ATS evaluation
+* Career roadmap generation
+* Mock interview analysis
+* Skill gap detection
+* Personalized coaching
 
-● Verified users participate in discussions.
+---
 
-● Career achievements can be shared instantly.
+# 🌟 Vision
 
-● Interview experiences become community resources.
+Instead of forcing users to juggle multiple career platforms, **NextHer creates one unified ecosystem where every interaction improves the next.**
 
-● Knowledge is continuously contributed back into the ecosystem.
+```text
+Resume Insights
+        ↓
+Mentorship Recommendations
+        ↓
+Interview Preparation
+        ↓
+Community Knowledge
+        ↓
+Better Career Outcomes
+```
 
-● The platform grows smarter as more users interact.
+Every interaction strengthens personalization, creating a seamless, supportive, and data-driven career journey for women in tech.
 
-⚡ Real-Time Communication
+---
 
-● WebSockets enable live updates.
+# 💜 Built With a Mission
 
-● Instant notifications.
+Empowering women through mentorship, community, transparency, and intelligent career guidance.
 
-● Real-time comments.
-
-● Live discussion feeds.
-
-● Dynamic engagement tracking.
-
-🤖 AI Workflow
-
-The AI workflow is coordinated using multiple intelligent components working together.
-
-● Google Gemini performs resume understanding and natural language reasoning.
-
-● LangChain manages AI orchestration.
-
-● Vector search powers semantic recommendations.
-
-● AI generates career roadmaps.
-
-● AI evaluates resumes.
-
-● AI conducts mock interviews.
-
-● AI recommends mentors.
-
-● AI personalizes job recommendations.
-
-🌟 Outcome
-
-Instead of making users juggle multiple career platforms, NextHer creates one intelligent ecosystem where every interaction improves the next. Resume insights power mentorship recommendations, mentorship improves interview performance, interviews strengthen community knowledge, and community engagement continuously enhances personalized career guidance—creating a seamless, supportive, and data-driven career journey for women in tech.
+**Because careers should not be navigated alone.**
+<img width="683" height="765" alt="Screenshot 2026-07-10 at 11 41 34 PM" src="https://github.com/user-attachments/assets/71c16b06-0946-400b-83ea-b15a0df7115f" />
