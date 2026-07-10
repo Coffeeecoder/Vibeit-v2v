@@ -20,10 +20,10 @@ export const Route = createFileRoute("/discover")({
 
 function DiscoverPage() {
   const profiles = useSampleProfiles();
-  const [matched, setMatched] = useState<Profile | null>(null);
+  const [matched, setMatched] = useState(false);
 
-  const onMatch = (p: Profile) => {
-    setMatched(p);
+  const onMatch = (_p: Profile) => {
+    setMatched(true);
     confetti({
       particleCount: 140,
       spread: 90,
