@@ -20,10 +20,10 @@ export const Route = createFileRoute("/discover")({
 
 function DiscoverPage() {
   const profiles = useSampleProfiles();
-  const [matched, setMatched] = useState<Profile | null>(null);
+  const [matched, setMatched] = useState(false);
 
-  const onMatch = (p: Profile) => {
-    setMatched(p);
+  const onMatch = (_p: Profile) => {
+    setMatched(true);
     confetti({
       particleCount: 140,
       spread: 90,
@@ -63,13 +63,13 @@ function DiscoverPage() {
       </main>
 
       <AnimatePresence>
-        {matched && <MatchModal profile={matched} onClose={() => setMatched(null)} />}
+        {matched && <MatchModal onClose={() => setMatched(false)} />}
       </AnimatePresence>
     </div>
   );
 }
 
-function MatchModal({ profile, onClose }: { profile: Profile; onClose: () => void }) {
+function MatchModal({ onClose }: { onClose: () => void }) {
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -84,23 +84,25 @@ function MatchModal({ profile, onClose }: { profile: Profile; onClose: () => voi
         exit={{ scale: 0.9, opacity: 0 }}
         transition={{ type: "spring", stiffness: 260, damping: 22 }}
         onClick={(e) => e.stopPropagation()}
-        className="relative w-full max-w-md overflow-hidden rounded-[32px] bg-white p-8 text-center shadow-[var(--shadow-float)]"
+        className="relative w-full max-w-md overflow-hidden rounded-[32px] bg-white p-10 text-center shadow-[var(--shadow-float)]"
       >
-        <div className="absolute inset-x-0 -top-24 h-56" style={{ background: profile.gradient }} />
-        <div className="relative">
-          <div className="mx-auto grid h-24 w-24 place-items-center rounded-full bg-white text-6xl shadow-[var(--shadow-soft)]">
-            {profile.emoji}
-          </div>
-          <h2 className="mt-6 font-display text-4xl">It's a Match! 🎉</h2>
-          <p className="mt-2 text-muted-foreground">
-            <span className="font-semibold text-charcoal">{profile.name}</span> also wants to connect with you.
-          </p>
-          <div className="mt-6 flex justify-center gap-3">
-            <button className="btn-ghost-lux" onClick={onClose}>
-              Continue Swiping
-            </button>
-            <button className="btn-magnetic">Send Message</button>
-          </div>
+        <motion.div
+          initial={{ scale: 0, rotate: -30 }}
+          animate={{ scale: 1, rotate: 0 }}
+          transition={{ type: "spring", stiffness: 220, damping: 14, delay: 0.05 }}
+          className="mx-auto text-6xl"
+          aria-hidden
+        >
+          🎉
+        </motion.div>
+        <h2 className="mt-4 font-display text-4xl">It's a Match!</h2>
+        <p className="mt-3 text-muted-foreground">
+          Congratulations, <span className="font-semibold text-charcoal">Diva</span>! You have a new match.
+        </p>
+        <div className="mt-8 flex justify-center">
+          <button className="btn-magnetic" onClick={onClose}>
+            Continue Swiping
+          </button>
         </div>
       </motion.div>
     </motion.div>
