@@ -350,4 +350,3 @@ Every interaction strengthens personalization, creating a seamless, supportive, 
 Empowering women through mentorship, community, transparency, and intelligent career guidance.
 
 **Because careers should not be navigated alone.**
-<img width="683" height="765" alt="Screenshot 2026-07-10 at 11 41 34 PM" src="https://github.com/user-attachments/assets/71c16b06-0946-400b-83ea-b15a0df7115f" />
