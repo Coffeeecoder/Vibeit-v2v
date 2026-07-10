@@ -38,7 +38,7 @@ From resume building and skill development to mentorship, networking, workplace 
 
 ## 🔗 Important Links
 
-* 🌐 **Live Deployment:** *Coming Soon*
+* 🌐 **Live Deployment:** https://vibeit-v2v.vercel.app/profile
 * 🎥 **Demo Video:** *Coming Soon*
 
 ---
