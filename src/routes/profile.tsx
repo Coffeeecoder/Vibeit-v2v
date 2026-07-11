@@ -49,7 +49,7 @@ function ProfilePage() {
               </div>
             </div>
             <Link to="/aura" className="btn-magnetic inline-flex items-center gap-2">
-              <Sparkles className="h-4 w-4" /> Open Aura Studio
+              <Sparkles className="h-4 w-4" /> Open Ask_Her Studio
             </Link>
           </div>
         </div>
@@ -98,7 +98,7 @@ function ProfilePage() {
             <div className="mx-auto">
               <AuraAvatar size={112} />
             </div>
-            <p className="mt-4 font-display text-xl">Aura remembers</p>
+            <p className="mt-4 font-display text-xl">Next_Her remembers</p>
             <div className="mt-3 space-y-2 text-left text-sm">
               {[
                 "🌸 Last week you wanted ML internships — 3 new ones today.",
