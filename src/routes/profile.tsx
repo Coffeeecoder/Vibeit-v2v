@@ -98,7 +98,7 @@ function ProfilePage() {
             <div className="mx-auto">
               <AuraAvatar size={112} />
             </div>
-            <p className="mt-4 font-display text-xl">Next_Her remembers</p>
+            <p className="mt-4 font-display text-xl">Ask_Her remembers</p>
             <div className="mt-3 space-y-2 text-left text-sm">
               {[
                 "🌸 Last week you wanted ML internships — 3 new ones today.",
